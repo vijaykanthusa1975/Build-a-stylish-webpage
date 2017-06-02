@@ -1,0 +1,94 @@
+/* This is a CSS comment.*/
+
+
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/
+
+* {
+  outline: 1px solid white !important;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.image {
+  max-width: 460px;
+}
+
+.container, .section {
+  background-color: white;
+  font-family: Arial;
+}
+
+h1 {
+  color: #6b8000;
+  background-color: white;
+  font-family: Arial;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  color: #6b8000;
+  background-color: white;
+  font-family: Arial;
+  text-align: Left;
+  font-weight: Normal;
+}
+
+#disc, #disc1, #disc2, #disc3, #disc4 {
+  list-style-type: disc;
+  color: #6b8000;
+  background-color: white;
+  font-family: Arial;
+  padding-left: 1.2em;
+  text-align: Left;
+  font-weight: Normal;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 10px solid #999;
+  padding: 0.5rem;
+  color: #6b8000;
+  text-align: left;
+  border: solid thin;
+}
+
+table {
+  width: 75%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+table#t01 th {
+  background-color: #6b8000;
+  color: white;
+  font-family: Arial;
+}
